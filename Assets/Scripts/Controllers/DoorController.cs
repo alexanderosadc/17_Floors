@@ -29,29 +29,34 @@ public class DoorController : MonoBehaviour
             open();
     }
 
-    void close()
+    void close ()
     {
         if (isBlocked())
-            Debug.Log("Door is blocked");
+            blockAlert();
         else
             animator.SetBool("opened", false);
     }
 
-    void open()
+    void open ()
     {
         if (isBlocked())
-            Debug.Log("Door is blocked");
+            blockAlert();
         else
             animator.SetBool("opened", true);
     }
 
-    bool isOpened()
+    bool isOpened ()
     {
         return animator.GetBool("opened");
     }
 
-    bool isBlocked()
+    bool isBlocked ()
     {
         return blocked;
+    }
+
+    void blockAlert ()
+    {
+        Debug.Log("Door is blocked");
     }
 }
