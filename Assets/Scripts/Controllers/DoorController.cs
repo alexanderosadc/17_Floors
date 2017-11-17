@@ -5,57 +5,81 @@ using UnityEngine;
 public class DoorController : MonoBehaviour
 {
     public bool blocked = false;
+    public GameObject openPanel = null;
+    public KeyCode openButton = KeyCode.F;
 
-    Animator animator;
+    private Animator animator;
+    private bool _isInsideTrigger = false;
 
     void Start ()
     {
         animator = GetComponent<Animator>();
     }
-	
-	void Update ()
+
+    void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (other.tag == "Player")
         {
-            toggle();
+            _isInsideTrigger = true;
+            openPanel.SetActive(true);
         }
     }
 
-    void toggle ()
+    void OnTriggerExit(Collider other)
     {
-        if (isOpened())
-            close();
-        else
-            open();
+        if (other.tag == "Player")
+        {
+            _isInsideTrigger = false;
+            openPanel.SetActive(false);
+        }
+    }
+    
+    void Update()
+    {
+        if (_isInsideTrigger)
+        {
+            if (Input.GetKeyDown(openButton))
+            {
+                Toggle();
+            }
+        }
     }
 
-    void close ()
+    void Toggle ()
     {
-        if (isBlocked())
-            blockAlert();
+        if (IsOpened())
+            Close();
+        else
+            Open();
+    }
+
+    void Close ()
+    {
+        if (IsBlocked())
+            BlockAlert();
         else
             animator.SetBool("opened", false);
     }
 
-    void open ()
+    void Open ()
     {
-        if (isBlocked())
-            blockAlert();
+        if (IsBlocked())
+            BlockAlert();
         else
             animator.SetBool("opened", true);
     }
 
-    bool isOpened ()
+    bool IsOpened ()
     {
         return animator.GetBool("opened");
     }
 
-    bool isBlocked ()
+    bool IsBlocked ()
     {
         return blocked;
     }
 
-    void blockAlert ()
+    void BlockAlert ()
     {
         Debug.Log("Door is blocked");
     }
