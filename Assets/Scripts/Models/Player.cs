@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public bool acting = false;
+    public bool canControl = true;
 
 	void Start ()
     {
 		
 	}
 
-    public bool isActing
+    public bool CanControl
     {
         get
         {
-            return acting;
+            return canControl;
         }
+    }
+
+    public void DisableControl()
+    {
+        canControl = false;
+    }
+
+    public void EnableControl()
+    {
+        canControl = true;
     }
 }

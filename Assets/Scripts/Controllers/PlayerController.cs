@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (controller.isGrounded && ! player.isActing)
+        if (controller.isGrounded && player.CanControl)
         {
             float moveX = Input.GetAxis("Horizontal");
             float moveZ = 0;
