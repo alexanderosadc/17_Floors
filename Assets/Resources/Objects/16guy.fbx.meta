@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: c9956170007d5064d93fe6ce50cbcd66
+timeCreated: 1514365360
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Camera
+    100006: Head
+    100008: Lamp
+    100010: man_6_foot_tall_001
+    100012: Neck
+    100014: Spine1
+    100016: Spine1_001
+    100018: Spine1_002
+    100020: Spine1_003
+    100022: Spine1_004
+    100024: Spine1_005
+    100026: Spine1_006
+    100028: Spine1_007
+    100030: Spine1_008
+    100032: Spine1_009
+    100034: Spine1_010
+    100036: Spine1_011
+    100038: Spine1_012
+    100040: Spine1_013
+    100042: Spine1_014
+    100044: Spine1_015
+    100046: Spine1_016
+    100048: Spine1_017
+    100050: Spine1_018
+    100052: Spine1_019
+    100054: Spine1_020
+    100056: Spine1_021
+    100058: Spine1_022
+    100060: Spine1_023
+    100062: Spine1_024
+    100064: Spine1_025
+    100066: Spine1_026
+    100068: Spine1_027
+    100070: Spine1_028
+    100072: Spine1_029
+    100074: Spine1_030
+    100076: Spine1_031
+    100078: Spine1_032
+    100080: Spine1_033
+    100082: Spine1_034
+    100084: Spine1_035
+    100086: Spine1_036
+    100088: Spine1_037
+    100090: Spine1_038
+    100092: Spine1_039
+    100094: Spine1_040
+    100096: Spine1_041
+    100098: Spine1_042
+    100100: Spine1_043
+    100102: Spine1_044
+    100104: Spine2
+    100106: Spine3
+    100108: Spine4
+    100110: Spine4_001
+    100112: Spine4_002
+    100114: Spine4_003
+    100116: Spine4_004
+    100118: Spine4_005
+    100120: Spine4_006
+    100122: Spine4_007
+    100124: Spine4_008
+    100126: Spine4_009
+    100128: Spine4_010
+    100130: Spine4_011
+    100132: Spine4_012
+    100134: Spine4_013
+    100136: Spine4_014
+    100138: Sun
+    400000: //RootNode
+    400002: Armature
+    400004: Camera
+    400006: Head
+    400008: Lamp
+    400010: man_6_foot_tall_001
+    400012: Neck
+    400014: Spine1
+    400016: Spine1_001
+    400018: Spine1_002
+    400020: Spine1_003
+    400022: Spine1_004
+    400024: Spine1_005
+    400026: Spine1_006
+    400028: Spine1_007
+    400030: Spine1_008
+    400032: Spine1_009
+    400034: Spine1_010
+    400036: Spine1_011
+    400038: Spine1_012
+    400040: Spine1_013
+    400042: Spine1_014
+    400044: Spine1_015
+    400046: Spine1_016
+    400048: Spine1_017
+    400050: Spine1_018
+    400052: Spine1_019
+    400054: Spine1_020
+    400056: Spine1_021
+    400058: Spine1_022
+    400060: Spine1_023
+    400062: Spine1_024
+    400064: Spine1_025
+    400066: Spine1_026
+    400068: Spine1_027
+    400070: Spine1_028
+    400072: Spine1_029
+    400074: Spine1_030
+    400076: Spine1_031
+    400078: Spine1_032
+    400080: Spine1_033
+    400082: Spine1_034
+    400084: Spine1_035
+    400086: Spine1_036
+    400088: Spine1_037
+    400090: Spine1_038
+    400092: Spine1_039
+    400094: Spine1_040
+    400096: Spine1_041
+    400098: Spine1_042
+    400100: Spine1_043
+    400102: Spine1_044
+    400104: Spine2
+    400106: Spine3
+    400108: Spine4
+    400110: Spine4_001
+    400112: Spine4_002
+    400114: Spine4_003
+    400116: Spine4_004
+    400118: Spine4_005
+    400120: Spine4_006
+    400122: Spine4_007
+    400124: Spine4_008
+    400126: Spine4_009
+    400128: Spine4_010
+    400130: Spine4_011
+    400132: Spine4_012
+    400134: Spine4_013
+    400136: Spine4_014
+    400138: Sun
+    2000000: Camera
+    2100000: Material_003
+    2100002: Material_002
+    2100004: Material_006
+    2100006: Material_004
+    2100008: Material_005
+    4300000: man_6_foot_tall_001
+    7400000: Default Take
+    9500000: //RootNode
+    10800000: Lamp
+    10800002: Sun
+    13700000: man_6_foot_tall_001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
